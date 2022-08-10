@@ -2348,8 +2348,6 @@ class PlayState extends MusicBeatState
 
 	function endSong():Void
 	{
-		if (!loadRep)
-			rep.SaveReplay();
 
 		#if windows
 		if (luaModchart != null)
