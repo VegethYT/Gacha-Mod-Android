@@ -993,6 +993,7 @@ class PlayState extends MusicBeatState
 		doof.cameras = [camHUD];
 		#if android
 		addAndroidControls();
+                androidControls.visible = true;
 		#end
 		if (FlxG.save.data.songPosition)
 		{
